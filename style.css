@@ -1,0 +1,54 @@
+.container{
+    margin-top: 13%;
+}
+.textCo,#result{
+    color: #8C2A8E !important;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+.bgCo{
+    background-color: #EBD6EC !important;
+}
+.bgBodyCard{
+    background-color: #FAFAFA !important;
+  
+}
+p,#error{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #8C2A8E;
+}
+#error{
+    color: rgb(250, 103, 103) !important;
+    font-size: 17px;
+
+}
+#Remaining{
+    padding: 2px 10px;
+    background: #FFFFFF;
+border: 1px solid #DBDBDB;
+}
+
+button{
+    background-color
+    : #8C2A8E !important;
+border-radius: 23px !important;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+border: 0px none ;
+color: #FFFFFF  !important;
+}
+input[type='number']{
+    background: #FFFFFF !important;
+    border: 1px solid #DBDBDB !important;
+}
