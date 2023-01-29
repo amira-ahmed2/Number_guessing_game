@@ -13,11 +13,15 @@
 <section class="container">
   <div class="text-center ">
     <h1 class="textCo ">Number guessing game</h1>
+  
 <div class="d-flex flex-column justify-content-center align-items-center col-12">
     <div class="card d-flex flex-column justify-content-center col-md-6 col-12" >
         
-        <div class="card-header bgCo">
+        <div class="card-header bgCo d-flex justify-content-center align-items-center">
             <p id="result" class="m-0">start</p>
+            <div id="reload" onclick="reload()" class="ms-5">
+                
+            </div>
         </div>
         <div id="bgBodyCard" class="card-body bgBodyCard d-flex flex-column justify-content-center align-items-center pt-5 pb-4" >
             <input type="number" id="myNumber" name="myNumber" value=""
